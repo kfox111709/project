@@ -5,17 +5,17 @@ root = tk.Tk()
 root.title("About Me")
 
 name = "Kyle Fox"
-age = 14
-grade = 9
-hobbies = ["Gaming", "coding", "Repairing broken electronics"]
+age = 16
+grade = 10
+hobbies = ["Gaming", "coding", "Repairing broken electronics", "riding and tinkering with my minibike"]
 
 favorite_color = "Lime green/Light blue"
 favorite_game = "Minecraft"
 
 skills = ["Python programming", "Fixing computers", "Troubleshooting computers"]
 
-short_term_goal = "Improve my coding skills"
-long_term_goal = "Become a Computer repair Technician"
+short_term_goal = "improve my skills"
+long_term_goal = "Become a Small engine repair technician"
 
 fun_fact = "I have made a game on roblox,  I have also made multiple Discord bots using python. And one of my favorites is my discord bot that plays music from youtube into a discord voice channel"
 
@@ -65,5 +65,6 @@ def start_typing():
 
 start_button = tk.Button(root, text="Start", command=start_typing, font=("Minecraft"))
 start_button.pack(pady=10)
+
 
 root.mainloop()
